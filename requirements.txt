@@ -1,0 +1,26 @@
+# Introduction to Machine Learning — practical sessions, winter semester 2026/27
+# Shared dependencies for all nine sessions, on Binder and locally.
+# Install with: python -m pip install -r requirements.txt
+# Version ranges are provisional; freeze the complete environment after testing
+# all notebooks on Binder for a reproducible semester release.
+
+# Numerical computation and constrained portfolio optimization
+numpy>=2.2,<3
+scipy>=1.15,<2
+
+# Tabular data and Excel dataset import/export
+pandas>=2.2,<3
+openpyxl>=3.1,<4
+
+# Plots and exploratory data analysis
+matplotlib>=3.10,<4
+seaborn>=0.13,<0.14
+
+# Preprocessing, pipelines, cross-validation, model selection, PCA,
+# trees, ensembles, permutation importance, and neural networks (MLP)
+scikit-learn>=1.6,<2
+
+# Notebook use on Binder and on students' own computers
+jupyterlab>=4.3,<5
+ipykernel>=6.29,<7
+ipywidgets>=8.1,<9
