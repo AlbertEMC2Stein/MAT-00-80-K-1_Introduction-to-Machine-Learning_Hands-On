@@ -221,6 +221,3 @@ __marimo__/
 
 # MacOS
 .DS_Store
-
-# Solutions
-*_solution.ipynb
